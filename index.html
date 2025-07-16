@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>日本大阪-东京最终行程规划</title>
+    <title>日本大阪-东京最终行程规划 (超详细版)</title>
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -67,9 +67,9 @@
 </head>
 <body>
 
-    <h1>日本大阪-东京最终行程规划 (优化确认版)</h1>
+    <h1>日本大阪-东京最终行程规划 (超详细版)</h1>
 
-    <button class="export-button" onclick="exportTableToExcel('itineraryTable', '日本最终行程规划')">导出为Excel文件</button>
+    <button class="export-button" onclick="exportTableToExcel('itineraryTable', '日本最终行程规划-详细版')">导出为Excel文件</button>
 
     <table id="itineraryTable">
         <thead>
@@ -202,12 +202,12 @@
                 <td>约45分钟</td>
             </tr>
             <tr>
-                <td rowspan="7"><strong>第四天 (8月5日, 周一)</strong></td>
+                <td rowspan="12"><strong>第四天 (8月5日, 周一)</strong></td>
                 <td>07:21-09:51</td>
                 <td><strong>新干线 Nozomi 296号</strong> (新大阪 → 东京)</td>
                 <td>JR东海道新干线</td>
                 <td>2小时30分</td>
-                <td rowspan="7">在途</td>
+                <td rowspan="12">在途</td>
             </tr>
             <tr>
                 <td>09:51-10:20</td>
@@ -216,34 +216,65 @@
                 <td>约30分钟</td>
             </tr>
             <tr>
-                <td>10:20-16:40</td>
-                <td>**东京精华一日游** (秋叶原→上野→浅草→东京塔)</td>
-                <td>JR山手线 + 地铁银座/浅草线</td>
-                <td>约6小时20分</td>
-            </tr>
-            <tr>
-                <td>16:40-17:00</td>
-                <td><strong>关键：</strong> 返回东京站取回行李</td>
-                <td><strong>JR山手线</strong> (滨松町站 → 东京站)</td>
+                <td>10:20-10:40</td>
+                <td>第一站：前往秋叶原</td>
+                <td><strong>JR山手线</strong> (东京站 → 秋叶原站)</td>
                 <td>约20分钟</td>
             </tr>
             <tr>
-                <td>17:00-17:50</td>
-                <td>前往羽田机场(HND)</td>
-                <td><strong>JR京滨东北线</strong> (东京站 → 滨松町站) + <strong>东京单轨电车</strong></td>
-                <td>约50分钟</td>
+                <td>10:40-12:00</td>
+                <td>游览秋叶原电器街</td>
+                <td>步行</td>
+                <td>约1小时20分</td>
             </tr>
             <tr>
-                <td>17:50-20:00</td>
-                <td>抵达羽田机场，办理值机、安检、购物</td>
+                <td>12:00-12:20</td>
+                <td>第二站：前往上野</td>
+                <td><strong>JR山手线</strong> (秋叶原站 → 上野站)</td>
+                <td>约20分钟</td>
+            </tr>
+            <tr>
+                <td>12:20-13:00</td>
+                <td>在"BigGym Ueno"购买漫画</td>
+                <td>步行</td>
+                <td>约40分钟</td>
+            </tr>
+            <tr>
+                <td>13:00-13:20</td>
+                <td>第三站：前往浅草寺</td>
+                <td><strong>地铁银座线</strong> (上野站 → 浅草站)</td>
+                <td>约20分钟</td>
+            </tr>
+            <tr>
+                <td>13:20-14:40</td>
+                <td>游览浅草寺与仲见世商店街</td>
+                <td>步行</td>
+                <td>约1小时20分</td>
+            </tr>
+            <tr>
+                <td>14:40-15:10</td>
+                <td>第四站：前往东京塔</td>
+                <td><strong>地铁浅草线</strong> (浅草站 → 大门站)</td>
+                <td>约30分钟</td>
+            </tr>
+            <tr>
+                <td>15:10-16:10</td>
+                <td>参观东京塔 (主观景台)</td>
+                <td>步行</td>
+                <td>约1小时</td>
+            </tr>
+
+            <tr>
+                <td>16:10-17:30</td>
+                <td>**关键：** 返回东京站取行李并前往机场</td>
+                <td><strong>JR山手线</strong> (滨松町站 → 东京站)；取行李后，再从东京站乘 **JR京滨东北线** (→滨松町站) + **东京单轨电车**</td>
+                <td>约1小时20分</td>
+            </tr>
+            <tr>
+                <td>17:30-22:05</td>
+                <td>抵达羽田机场(HND)办理值机，候机及返程</td>
+                <td><strong>航班 MU540</strong></td>
                 <td>-</td>
-                <td>~2小时</td>
-            </tr>
-            <tr>
-                <td>20:00-22:05</td>
-                <td><strong>航班 MU540</strong> (东京羽田 → 上海浦东)</td>
-                <td>东方航空</td>
-                <td>约3小时5分</td>
             </tr>
         </tbody>
     </table>
@@ -251,7 +282,7 @@
     <div class="notes">
         <h2>最终行程建议</h2>
         <ul>
-            <li><strong>行李方案是关键：</strong> 请严格遵守第三天和第四天的行李寄存计划，这是保证您轻松游玩的关键。</li>
+            <li><strong>行李方案是关键：</strong> 请严格遵守第三天和第四天的行李寄存计划，这能保证您在白天游玩时轻装上阵，是最高效的选择。</li>
             <li><strong>交通卡不离手：</strong> 请确保您的ICOCA或Suica交通卡有足够余额，以应对频繁的地铁和JR换乘。</li>
             <li><strong>时间观念：</strong> 日本的公共交通以准时著称，请务必按照表格上的时间行动，为自己预留出足够的缓冲时间，尤其是在东京站这样的大型枢纽站。</li>
             <li><strong>灵活调整：</strong> 第四天的东京行程虽然经过优化，但依然非常紧凑。您可以根据当天的实际情况和体力，灵活决定是否要缩短某个景点的游览时间，以确保行程顺利。</li>
