@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>日本大阪-东京最终行程规划</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        h1, h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        th, td {
+            border: 1px solid #dee2e6;
+            padding: 12px 15px;
+            text-align: left;
+            vertical-align: top;
+        }
+        thead th {
+            background-color: #3498db;
+            color: #ffffff;
+            font-weight: bold;
+        }
+        tbody tr:nth-child(even) {
+            background-color: #f2f8fc;
+        }
+        tbody tr:hover {
+            background-color: #eaf3f9;
+        }
+        .export-button {
+            display: inline-block;
+            margin-top: 25px;
+            margin-bottom: 25px;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            color: #fff;
+            background-color: #2ecc71;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .export-button:hover {
+            background-color: #27ae60;
+        }
+        .notes {
+            margin-top: 25px;
+            padding: 15px;
+            background-color: #fffbe6;
+            border-left: 5px solid #f1c40f;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>日本大阪-东京最终行程规划 (优化确认版)</h1>
+
+    <button class="export-button" onclick="exportTableToExcel('itineraryTable', '日本最终行程规划')">导出为Excel文件</button>
+
+    <table id="itineraryTable">
+        <thead>
+            <tr>
+                <th>日期</th>
+                <th>时间</th>
+                <th>行程安排</th>
+                <th>交通 / 路线</th>
+                <th>大致耗时</th>
+                <th>住宿</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="7"><strong>第一天 (8月2日, 周五)</strong></td>
+                <td>10:30</td>
+                <td>从上海的家中出发</td>
+                <td>自驾</td>
+                <td>1.5小时</td>
+                <td>在途</td>
+            </tr>
+            <tr>
+                <td>12:00-12:30</td>
+                <td>抵达浦东机场，前往贵宾服务处</td>
+                <td>浦东T1，三层出发大厅，11号门</td>
+                <td>-</td>
+                <td>在途</td>
+            </tr>
+            <tr>
+                <td>12:30-14:40</td>
+                <td>办理登机、安检及候机</td>
+                <td>-</td>
+                <td>-</td>
+                <td>在途</td>
+            </tr>
+            <tr>
+                <td>14:40-18:00</td>
+                <td><strong>航班 MU8649</strong> (上海 → 大阪)</td>
+                <td>东方航空</td>
+                <td>约3小时20分</td>
+                <td>在途</td>
+            </tr>
+            <tr>
+                <td>18:00-19:00</td>
+                <td>抵达大阪关西机场(KIX)，办理入境</td>
+                <td>-</td>
+                <td>约1小时</td>
+                <td rowspan="3"><strong>难波万枫酒店</strong></td>
+            </tr>
+            <tr>
+                <td>19:00-19:45</td>
+                <td>前往难波</td>
+                <td><strong>南海电铁空港急行</strong> (关西机场站 → 难波站)</td>
+                <td>约45分钟</td>
+            </tr>
+            <tr>
+                <td>19:45-</td>
+                <td>步行至酒店入住 & 晚餐/逛街</td>
+                <td>从南海难波站步行</td>
+                <td>约10分钟+</td>
+            </tr>
+            <tr>
+                <td rowspan="4"><strong>第二天 (8月3日, 周六)</strong></td>
+                <td>07:50-08:45</td>
+                <td>早餐 & 从酒店出发前往世博会</td>
+                <td>步行至难波站，乘坐<strong>地铁御堂筋线</strong> (难波站 → 本町站) + <strong>中央线</strong> (本町站 → 宇宙广场站)</td>
+                <td>约55分钟</td>
+                <td rowspan="4"><strong>难波万枫酒店</strong></td>
+            </tr>
+            <tr>
+                <td>08:45-09:00</td>
+                <td>抵达世博会门口，排队等候入场</td>
+                <td>-</td>
+                <td>15分钟</td>
+            </tr>
+            <tr>
+                <td>09:00-17:00</td>
+                <td><strong>参观2025年大阪世界博览会</strong></td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>17:00-18:00</td>
+                <td>从世博会返回酒店</td>
+                <td><strong>地铁中央线</strong> (宇宙广场站 → 本町站) + <strong>御堂筋线</strong> (本町站 → 难波站)，步行回酒店</td>
+                <td>约60分钟</td>
+            </tr>
+            <tr>
+                <td rowspan="7"><strong>第三天 (8月4日, 周日)</strong></td>
+                <td>07:35-07:45</td>
+                <td>在难波万枫酒店退房并寄存行李</td>
+                <td>酒店前台</td>
+                <td>10分钟</td>
+                <td rowspan="7"><strong>karaksa hotel grande Shin-Osaka Tower</strong></td>
+            </tr>
+            <tr>
+                <td>07:45-08:45</td>
+                <td>从酒店出发前往世博会</td>
+                <td>步行至难波站，乘坐<strong>地铁御堂筋线</strong> (难波站 → 本町站) + <strong>中央线</strong> (本町站 → 宇宙广场站)</td>
+                <td>约60分钟</td>
+            </tr>
+            <tr>
+                <td>08:45-09:00</td>
+                <td>抵达世博会门口，排队等候入场</td>
+                <td>-</td>
+                <td>15分钟</td>
+            </tr>
+            <tr>
+                <td>09:00-17:00</td>
+                <td><strong>参观2025年大阪世界博览会</strong> (第二天)</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>17:00-18:00</td>
+                <td>从世博会返回难波万枫酒店</td>
+                <td><strong>地铁中央线</strong> (宇宙广场站 → 本町站) + <strong>御堂筋线</strong> (本町站 → 难波站)，步行回酒店</td>
+                <td>约60分钟</td>
+            </tr>
+            <tr>
+                <td>18:00-18:15</td>
+                <td>在难波万枫酒店取回寄存的行李</td>
+                <td>酒店前台</td>
+                <td>15分钟</td>
+            </tr>
+            <tr>
+                <td>18:15-19:00</td>
+                <td><strong>搬家：</strong> 前往新大阪的酒店并入住</td>
+                <td>步行至难波站，乘坐<strong>地铁御堂筋线</strong> (难波站 → 新大阪站)，步行至新酒店</td>
+                <td>约45分钟</td>
+            </tr>
+            <tr>
+                <td rowspan="7"><strong>第四天 (8月5日, 周一)</strong></td>
+                <td>07:21-09:51</td>
+                <td><strong>新干线 Nozomi 296号</strong> (新大阪 → 东京)</td>
+                <td>JR东海道新干线</td>
+                <td>2小时30分</td>
+                <td rowspan="7">在途</td>
+            </tr>
+            <tr>
+                <td>09:51-10:20</td>
+                <td><strong>关键：</strong> 抵达东京站，寄存大件行李</td>
+                <td>站内投币式储物柜 (Coin Locker)</td>
+                <td>约30分钟</td>
+            </tr>
+            <tr>
+                <td>10:20-16:40</td>
+                <td>**东京精华一日游** (秋叶原→上野→浅草→东京塔)</td>
+                <td>JR山手线 + 地铁银座/浅草线</td>
+                <td>约6小时20分</td>
+            </tr>
+            <tr>
+                <td>16:40-17:00</td>
+                <td><strong>关键：</strong> 返回东京站取回行李</td>
+                <td><strong>JR山手线</strong> (滨松町站 → 东京站)</td>
+                <td>约20分钟</td>
+            </tr>
+            <tr>
+                <td>17:00-17:50</td>
+                <td>前往羽田机场(HND)</td>
+                <td><strong>JR京滨东北线</strong> (东京站 → 滨松町站) + <strong>东京单轨电车</strong></td>
+                <td>约50分钟</td>
+            </tr>
+            <tr>
+                <td>17:50-20:00</td>
+                <td>抵达羽田机场，办理值机、安检、购物</td>
+                <td>-</td>
+                <td>~2小时</td>
+            </tr>
+            <tr>
+                <td>20:00-22:05</td>
+                <td><strong>航班 MU540</strong> (东京羽田 → 上海浦东)</td>
+                <td>东方航空</td>
+                <td>约3小时5分</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="notes">
+        <h2>最终行程建议</h2>
+        <ul>
+            <li><strong>行李方案是关键：</strong> 请严格遵守第三天和第四天的行李寄存计划，这是保证您轻松游玩的关键。</li>
+            <li><strong>交通卡不离手：</strong> 请确保您的ICOCA或Suica交通卡有足够余额，以应对频繁的地铁和JR换乘。</li>
+            <li><strong>时间观念：</strong> 日本的公共交通以准时著称，请务必按照表格上的时间行动，为自己预留出足够的缓冲时间，尤其是在东京站这样的大型枢纽站。</li>
+            <li><strong>灵活调整：</strong> 第四天的东京行程虽然经过优化，但依然非常紧凑。您可以根据当天的实际情况和体力，灵活决定是否要缩短某个景点的游览时间，以确保行程顺利。</li>
+        </ul>
+    </div>
+
+    <script>
+        function exportTableToExcel(tableID, filename = 'export') {
+            const tableSelect = document.getElementById(tableID);
+            const dataType = 'application/vnd.ms-excel';
+            // 添加UTF-8 BOM，确保Excel能正确识别中文字符
+            const bom = "\uFEFF"; 
+            const tableHTML = bom + tableSelect.outerHTML.replace(/ /g, '%20');
+
+            const downloadLink = document.createElement("a");
+            
+            document.body.appendChild(downloadLink);
+            
+            if (navigator.msSaveOrOpenBlob) {
+                const blob = new Blob(['\ufeff', tableSelect.outerHTML], {
+                    type: dataType
+                });
+                navigator.msSaveOrOpenBlob(blob, filename + '.xls');
+            } else {
+                downloadLink.href = 'data:' + dataType + ', ' + tableHTML;
+                downloadLink.download = filename + '.xls';
+                downloadLink.click();
+            }
+            document.body.removeChild(downloadLink);
+        }
+    </script>
+
+</body>
+</html>
