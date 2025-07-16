@@ -53,6 +53,10 @@
         .activity-row {
             background-color: #ffffff;
         }
+        /* Style for the day separator line */
+        .day-start td {
+            border-top: 3px solid #3f51b5;
+        }
         .notes {
             margin-top: 30px;
             padding: 15px;
@@ -93,7 +97,7 @@
             </tr>
             <tr>
                 <td>12:00-12:30</td>
-                <td>抵达<a href="https://www.google.com/maps/search/?api=1&query=Pudong+Airport+Terminal+1" target="_blank">浦东机场</a>，前往贵宾服务处</td>
+                <td>抵达<a href="https://www.google.com/maps/place/Shanghai+Pudong+International+Airport+(PVG)/@31.143364,121.805215,17z" target="_blank">浦东机场</a>，前往贵宾服务处</td>
                 <td>浦东T1，三层出发大厅，11号门</td>
                 <td>-</td>
                 <td>在途</td>
@@ -114,34 +118,34 @@
             </tr>
             <tr>
                 <td>18:00-19:00</td>
-                <td>抵达<a href="https://www.google.com/maps/search/?api=1&query=Kansai+International+Airport" target="_blank">大阪关西机场(KIX)</a>，办理入境</td>
+                <td>抵达<a href="https://www.google.com/maps/place/Kansai+International+Airport+(KIX)/@34.427222,135.244167,17z" target="_blank">大阪关西机场(KIX)</a>，办理入境</td>
                 <td>-</td>
                 <td>约1小时</td>
-                <td rowspan="3"><a href="https://www.google.com/maps/search/?api=1&query=Fairfield+by+Marriott+Osaka+Namba" target="_blank">难波万枫酒店</a></td>
+                <td rowspan="3"><a href="https://www.google.com/maps/place/Fairfield+by+Marriott+Osaka+Namba/@34.665798,135.498733,17z" target="_blank">难波万枫酒店</a></td>
             </tr>
             <tr>
                 <td>19:00-19:45</td>
                 <td>前往难波</td>
-                <td>南海电铁空港急行 (<a href="https://www.google.com/maps/search/?api=1&query=Kansai+Airport+Station" target="_blank">关西机场站</a> → <a href="https://www.google.com/maps/search/?api=1&query=Namba+Station" target="_blank">难波站</a>)</td>
+                <td>南海电铁空港急行 (<a href="https://www.google.com/maps/place/Kansai-Airport+Station/@34.43672,135.24434,17z" target="_blank">关西机场站</a> → <a href="https://www.google.com/maps/place/Namba+Station/@34.66201,135.50131,17z" target="_blank">难波站</a>)</td>
                 <td>约45分钟</td>
             </tr>
             <tr>
                 <td>20:00-</td>
-                <td>晚餐 & 逛难波附近 (<a href="https://www.google.com/maps/search/?api=1&query=Shinsaibashi" target="_blank">心斋桥</a>/<a href="https://www.google.com/maps/search/?api=1&query=Dotonbori" target="_blank">道顿堀</a>)</td>
+                <td>晚餐 & 逛难波附近 (<a href="https://www.google.com/maps/place/Shinsaibashi-suji+Shopping+Street/@34.6724,135.501,17z" target="_blank">心斋桥</a>/<a href="https://www.google.com/maps/place/Dotonbori/@34.6687,135.501,17z" target="_blank">道顿堀</a>)</td>
                 <td>步行</td>
                 <td>-</td>
             </tr>
-            <tr>
+            <tr class="day-start">
                 <td rowspan="5" class="date-header">第二天 (8月3日, 周六)</td>
                 <td>07:50-08:45</td>
                 <td>早餐 & 从酒店出发前往世博会</td>
-                <td>步行至<a href="https://www.google.com/maps/search/?api=1&query=Namba+Station" target="_blank">难波站</a>，乘坐地铁御堂筋线 (<a href="https://www.google.com/maps/search/?api=1&query=Namba+Station" target="_blank">难波站</a> → <a href="https://www.google.com/maps/search/?api=1&query=Hommachi+Station" target="_blank">本町站</a>) + 中央线 (<a href="https://www.google.com/maps/search/?api=1&query=Hommachi+Station" target="_blank">本町站</a> → <a href="https://www.google.com/maps/search/?api=1&query=Cosmosquare+Station" target="_blank">宇宙广场站</a>)</td>
+                <td>步行至<a href="https://www.google.com/maps/place/Namba+Station/@34.66201,135.50131,17z" target="_blank">难波站</a>，乘坐地铁御堂筋线 (<a href="https://www.google.com/maps/place/Namba+Station/@34.66201,135.50131,17z" target="_blank">难波站</a> → <a href="https://www.google.com/maps/place/Hommachi+Station/@34.6807,135.501,17z" target="_blank">本町站</a>) + 中央线 (<a href="https://www.google.com/maps/place/Hommachi+Station/@34.6807,135.501,17z" target="_blank">本町站</a> → <a href="https://www.google.com/maps/place/Cosmosquare+Station/@34.6401,135.412,17z" target="_blank">宇宙广场站</a>)</td>
                 <td>约55分钟</td>
-                <td rowspan="5"><a href="https://www.google.com/maps/search/?api=1&query=Fairfield+by+Marriott+Osaka+Namba" target="_blank">难波万枫酒店</a></td>
+                <td rowspan="5"><a href="https://www.google.com/maps/place/Fairfield+by+Marriott+Osaka+Namba/@34.665798,135.498733,17z" target="_blank">难波万枫酒店</a></td>
             </tr>
             <tr>
                 <td>08:45-09:00</td>
-                <td>抵达<a href="https://www.google.com/maps/search/?api=1&query=Expo+2025+Osaka" target="_blank">世博会</a>门口，排队等候入场</td>
+                <td>抵达<a href="https://www.google.com/maps/search/?api=1&query=34.6688,135.399" target="_blank">世博会</a>门口，排队等候入场</td>
                 <td>-</td>
                 <td>15分钟</td>
             </tr>
@@ -154,32 +158,32 @@
             <tr>
                 <td>17:00-18:00</td>
                 <td>从世博会返回酒店</td>
-                <td>地铁中央线 (<a href="https://www.google.com/maps/search/?api=1&query=Cosmosquare+Station" target="_blank">宇宙广场站</a> → <a href="https://www.google.com/maps/search/?api=1&query=Hommachi+Station" target="_blank">本町站</a>) + 御堂筋线 (<a href="https://www.google.com/maps/search/?api=1&query=Hommachi+Station" target="_blank">本町站</a> → <a href="https://www.google.com/maps/search/?api=1&query=Namba+Station" target="_blank">难波站</a>)，步行回酒店</td>
+                <td>地铁中央线 (<a href="https://www.google.com/maps/place/Cosmosquare+Station/@34.6401,135.412,17z" target="_blank">宇宙广场站</a> → <a href="https://www.google.com/maps/place/Hommachi+Station/@34.6807,135.501,17z" target="_blank">本町站</a>) + 御堂筋线 (<a href="https://www.google.com/maps/place/Hommachi+Station/@34.6807,135.501,17z" target="_blank">本町站</a> → <a href="https://www.google.com/maps/place/Namba+Station/@34.66201,135.50131,17z" target="_blank">难波站</a>)，步行回酒店</td>
                 <td>约60分钟</td>
             </tr>
             <tr>
                 <td>18:00-</td>
-                <td>晚餐及自由活动 (可在<a href="https://www.google.com/maps/search/?api=1&query=Namba" target="_blank">难波</a>解决)</td>
+                <td>晚餐及自由活动 (可在<a href="https://www.google.com/maps/place/Namba/@34.662,135.501,17z" target="_blank">难波</a>解决)</td>
                 <td>步行</td>
                 <td>-</td>
             </tr>
-            <tr>
+            <tr class="day-start">
                 <td rowspan="7" class="date-header">第三天 (8月4日, 周日)</td>
                 <td>07:35-07:45</td>
-                <td>在<a href="https://www.google.com/maps/search/?api=1&query=Fairfield+by+Marriott+Osaka+Namba" target="_blank">难波万枫酒店</a>退房并寄存行李</td>
+                <td>在<a href="https://www.google.com/maps/place/Fairfield+by+Marriott+Osaka+Namba/@34.665798,135.498733,17z" target="_blank">难波万枫酒店</a>退房并寄存行李</td>
                 <td>酒店前台</td>
                 <td>10分钟</td>
-                <td rowspan="7"><a href="https://www.google.com/maps/search/?api=1&query=karaksa+hotel+grande+Shin-Osaka+Tower" target="_blank">karaksa hotel grande Shin-Osaka Tower</a></td>
+                <td rowspan="7"><a href="https://www.google.com/maps/place/karaksa+hotel+grande+Shin-Osaka+Tower/@34.7315,135.500,17z" target="_blank">karaksa hotel grande Shin-Osaka Tower</a></td>
             </tr>
             <tr>
                 <td>07:45-08:45</td>
                 <td>从酒店出发前往世博会</td>
-                <td>步行至<a href="https://www.google.com/maps/search/?api=1&query=Namba+Station" target="_blank">难波站</a>，乘坐地铁御堂筋线 (<a href="https://www.google.com/maps/search/?api=1&query=Namba+Station" target="_blank">难波站</a> → <a href="https://www.google.com/maps/search/?api=1&query=Hommachi+Station" target="_blank">本町站</a>) + 中央线 (<a href="https://www.google.com/maps/search/?api=1&query=Hommachi+Station" target="_blank">本町站</a> → <a href="https://www.google.com/maps/search/?api=1&query=Cosmosquare+Station" target="_blank">宇宙广场站</a>)</td>
+                <td>步行至<a href="https://www.google.com/maps/place/Namba+Station/@34.66201,135.50131,17z" target="_blank">难波站</a>，乘坐地铁御堂筋线 (<a href="https://www.google.com/maps/place/Namba+Station/@34.66201,135.50131,17z" target="_blank">难波站</a> → <a href="https://www.google.com/maps/place/Hommachi+Station/@34.6807,135.501,17z" target="_blank">本町站</a>) + 中央线 (<a href="https://www.google.com/maps/place/Hommachi+Station/@34.6807,135.501,17z" target="_blank">本町站</a> → <a href="https://www.google.com/maps/place/Cosmosquare+Station/@34.6401,135.412,17z" target="_blank">宇宙广场站</a>)</td>
                 <td>约60分钟</td>
             </tr>
             <tr>
                 <td>08:45-09:00</td>
-                <td>抵达<a href="https://www.google.com/maps/search/?api=1&query=Expo+2025+Osaka" target="_blank">世博会</a>门口，排队等候入场</td>
+                <td>抵达<a href="https://www.google.com/maps/search/?api=1&query=34.6688,135.399" target="_blank">世博会</a>门口，排队等候入场</td>
                 <td>-</td>
                 <td>15分钟</td>
             </tr>
@@ -191,99 +195,99 @@
             </tr>
             <tr>
                 <td>17:00-18:00</td>
-                <td>从世博会返回<a href="https://www.google.com/maps/search/?api=1&query=Fairfield+by+Marriott+Osaka+Namba" target="_blank">难波万枫酒店</a></td>
-                <td>地铁中央线 (<a href="https://www.google.com/maps/search/?api=1&query=Cosmosquare+Station" target="_blank">宇宙广场站</a> → <a href="https://www.google.com/maps/search/?api=1&query=Hommachi+Station" target="_blank">本町站</a>) + 御堂筋线 (<a href="https://www.google.com/maps/search/?api=1&query=Hommachi+Station" target="_blank">本町站</a> → <a href="https://www.google.com/maps/search/?api=1&query=Namba+Station" target="_blank">难波站</a>)，步行回酒店</td>
+                <td>从世博会返回<a href="https://www.google.com/maps/place/Fairfield+by+Marriott+Osaka+Namba/@34.665798,135.498733,17z" target="_blank">难波万枫酒店</a></td>
+                <td>地铁中央线 (<a href="https://www.google.com/maps/place/Cosmosquare+Station/@34.6401,135.412,17z" target="_blank">宇宙广场站</a> → <a href="https://www.google.com/maps/place/Hommachi+Station/@34.6807,135.501,17z" target="_blank">本町站</a>) + 御堂筋线 (<a href="https://www.google.com/maps/place/Hommachi+Station/@34.6807,135.501,17z" target="_blank">本町站</a> → <a href="https://www.google.com/maps/place/Namba+Station/@34.66201,135.50131,17z" target="_blank">难波站</a>)，步行回酒店</td>
                 <td>约60分钟</td>
             </tr>
             <tr>
                 <td>18:15-18:50</td>
-                <td>搬家：前往<a href="https://www.google.com/maps/search/?api=1&query=Shin-Osaka" target="_blank">新大阪</a>的酒店</td>
-                <td>步行至<a href="https://www.google.com/maps/search/?api=1&query=Namba+Station" target="_blank">难波站</a>，乘坐地铁御堂筋线 (<a href="https://www.google.com/maps/search/?api=1&query=Namba+Station" target="_blank">难波站</a> → <a href="https://www.google.com/maps/search/?api=1&query=Shin-Osaka+Station" target="_blank">新大阪站</a>)</td>
+                <td>搬家：前往<a href="https://www.google.com/maps/place/Shin-Osaka/@34.7336,135.500,17z" target="_blank">新大阪</a>的酒店</td>
+                <td>步行至<a href="https://www.google.com/maps/place/Namba+Station/@34.66201,135.50131,17z" target="_blank">难波站</a>，乘坐地铁御堂筋线 (<a href="https://www.google.com/maps/place/Namba+Station/@34.66201,135.50131,17z" target="_blank">难波站</a> → <a href="https://www.google.com/maps/place/Shin-Osaka+Station/@34.733,135.500,17z" target="_blank">新大阪站</a>)</td>
                 <td>约35分钟</td>
             </tr>
             <tr>
                 <td>18:50-19:00</td>
                 <td>抵达新酒店并办理入住</td>
-                <td>从<a href="https://www.google.com/maps/search/?api=1&query=Shin-Osaka+Station" target="_blank">新大阪站</a>步行</td>
+                <td>从<a href="https://www.google.com/maps/place/Shin-Osaka+Station/@34.733,135.500,17z" target="_blank">新大阪站</a>步行</td>
                 <td>约10分钟</td>
             </tr>
-            <tr>
+            <tr class="day-start">
                 <td rowspan="13" class="date-header">第四天 (8月5日, 周一)</td>
                 <td>07:21-09:51</td>
-                <td>新干线 Nozomi 296号 (<a href="https://www.google.com/maps/search/?api=1&query=Shin-Osaka+Station" target="_blank">新大阪</a> → <a href="https://www.google.com/maps/search/?api=1&query=Tokyo+Station" target="_blank">东京</a>)</td>
+                <td>新干线 Nozomi 296号 (<a href="https://www.google.com/maps/place/Shin-Osaka/@34.7336,135.500,17z" target="_blank">新大阪</a> → <a href="https://www.google.com/maps/place/Tokyo/@35.6895,139.6917,17z" target="_blank">东京</a>)</td>
                 <td>JR东海道新干线</td>
                 <td>2小时30分</td>
                 <td rowspan="13">在途</td>
             </tr>
             <tr>
                 <td>09:51-10:20</td>
-                <td>关键：抵达<a href="https://www.google.com/maps/search/?api=1&query=Tokyo+Station" target="_blank">东京站</a>，寄存大件行李</td>
+                <td>关键：抵达<a href="https://www.google.com/maps/place/Tokyo+Station/@35.6812,139.7671,17z" target="_blank">东京站</a>，寄存大件行李</td>
                 <td>站内投币式储物柜 (Coin Locker)</td>
                 <td>约30分钟</td>
             </tr>
             <tr class="travel-row">
                 <td>10:20-10:30</td>
                 <td>(交通) 前往秋叶原</td>
-                <td>JR山手线 (<a href="https://www.google.com/maps/search/?api=1&query=Tokyo+Station" target="_blank">东京站</a> → <a href="https://www.google.com/maps/search/?api=1&query=Akihabara+Station" target="_blank">秋叶原站</a>)</td>
+                <td>JR山手线 (<a href="https://www.google.com/maps/place/Tokyo+Station/@35.6812,139.7671,17z" target="_blank">东京站</a> → <a href="https://www.google.com/maps/place/Akihabara+Station/@35.6984,139.773,17z" target="_blank">秋叶原站</a>)</td>
                 <td>约10分钟</td>
             </tr>
             <tr class="activity-row">
                 <td>10:30-12:00</td>
-                <td>(活动) 游览<a href="https://www.google.com/maps/search/?api=1&query=Akihabara" target="_blank">秋叶原</a></td>
+                <td>(活动) 游览<a href="https://www.google.com/maps/place/Akihabara/@35.6997,139.771,17z" target="_blank">秋叶原</a></td>
                 <td>-</td>
                 <td>约1小时30分钟</td>
             </tr>
             <tr class="travel-row">
                 <td>12:00-12:10</td>
                 <td>(交通) 前往上野</td>
-                <td>JR山手线 (<a href="https://www.google.com/maps/search/?api=1&query=Akihabara+Station" target="_blank">秋叶原站</a> → <a href="https://www.google.com/maps/search/?api=1&query=Ueno+Station" target="_blank">上野站</a>)</td>
+                <td>JR山手线 (<a href="https://www.google.com/maps/place/Akihabara+Station/@35.6984,139.773,17z" target="_blank">秋叶原站</a> → <a href="https://www.google.com/maps/place/Ueno+Station/@35.7138,139.777,17z" target="_blank">上野站</a>)</td>
                 <td>约10分钟</td>
             </tr>
             <tr class="activity-row">
                 <td>12:10-13:00</td>
-                <td>(活动) 在<a href="https://www.google.com/maps/search/?api=1&query=Ueno" target="_blank">上野</a>购买漫画 (<a href="https://www.google.com/maps/search/?api=1&query=BigGym+Ueno" target="_blank">BigGym Ueno</a>)</td>
+                <td>(活动) 在<a href="https://www.google.com/maps/place/Ueno/@35.7109,139.777,17z" target="_blank">上野</a>购买漫画 (<a href="https://www.google.com/maps/search/?api=1&query=BigGym+Ueno" target="_blank">BigGym Ueno</a>)</td>
                 <td>-</td>
                 <td>约50分钟</td>
             </tr>
             <tr class="travel-row">
                 <td>13:00-13:15</td>
                 <td>(交通) 前往浅草</td>
-                <td>地铁银座线 (<a href="https://www.google.com/maps/search/?api=1&query=Ueno+Station" target="_blank">上野站</a> → <a href="https://www.google.com/maps/search/?api=1&query=Asakusa+Station" target="_blank">浅草站</a>)</td>
+                <td>地铁银座线 (<a href="https://www.google.com/maps/place/Ueno+Station/@35.7138,139.777,17z" target="_blank">上野站</a> → <a href="https://www.google.com/maps/place/Asakusa+Station/@35.7118,139.798,17z" target="_blank">浅草站</a>)</td>
                 <td>约15分钟</td>
             </tr>
             <tr class="activity-row">
                 <td>13:15-14:40</td>
-                <td>(活动) 游览<a href="https://www.google.com/maps/search/?api=1&query=Senso-ji+Temple" target="_blank">浅草寺</a></td>
-                <td>从<a href="https://www.google.com/maps/search/?api=1&query=Asakusa+Station" target="_blank">浅草站</a>步行</td>
+                <td>(活动) 游览<a href="https://www.google.com/maps/place/Sensō-ji/@35.7148,139.7967,17z" target="_blank">浅草寺</a></td>
+                <td>从<a href="https://www.google.com/maps/place/Asakusa+Station/@35.7118,139.798,17z" target="_blank">浅草站</a>步行</td>
                 <td>约1小时25分钟</td>
             </tr>
             <tr class="travel-row">
                 <td>14:40-15:05</td>
                 <td>(交通) 前往东京塔</td>
-                <td>地铁浅草线 (<a href="https://www.google.com/maps/search/?api=1&query=Asakusa+Station" target="_blank">浅草站</a> → <a href="https://www.google.com/maps/search/?api=1&query=Daimon+Station" target="_blank">大门站</a>)，然后步行</td>
+                <td>地铁浅草线 (<a href="https://www.google.com/maps/place/Asakusa+Station/@35.7118,139.798,17z" target="_blank">浅草站</a> → <a href="https://www.google.com/maps/place/Daimon+Station/@35.6563,139.754,17z" target="_blank">大门站</a>)，然后步行</td>
                 <td>约25分钟</td>
             </tr>
             <tr class="activity-row">
                 <td>15:05-16:10</td>
-                <td>(活动) 参观<a href="https://www.google.com/maps/search/?api=1&query=Tokyo+Tower" target="_blank">东京塔</a> (主观景台)</td>
+                <td>(活动) 参观<a href="https://www.google.com/maps/place/Tokyo+Tower/@35.6586,139.7454,17z" target="_blank">东京塔</a> (主观景台)</td>
                 <td>-</td>
                 <td>约1小时5分钟</td>
             </tr>
             <tr>
                 <td>16:10-16:40</td>
-                <td>关键：返回<a href="https://www.google.com/maps/search/?api=1&query=Tokyo+Station" target="_blank">东京站</a>取回行李</td>
-                <td>JR山手线 (<a href="https://www.google.com/maps/search/?api=1&query=Hamamatsucho+Station" target="_blank">滨松町站</a>/<a href="https://www.google.com/maps/search/?api=1&query=Daimon+Station" target="_blank">大门站</a> → <a href="https://www.google.com/maps/search/?api=1&query=Tokyo+Station" target="_blank">东京站</a>)</td>
+                <td>关键：返回<a href="https://www.google.com/maps/place/Tokyo+Station/@35.6812,139.7671,17z" target="_blank">东京站</a>取回行李</td>
+                <td>JR山手线 (<a href="https://www.google.com/maps/place/Hamamatsuchō+Station/@35.6556,139.757,17z" target="_blank">滨松町站</a>/<a href="https://www.google.com/maps/place/Daimon+Station/@35.6563,139.754,17z" target="_blank">大门站</a> → <a href="https://www.google.com/maps/place/Tokyo+Station/@35.6812,139.7671,17z" target="_blank">东京站</a>)</td>
                 <td>约30分钟</td>
             </tr>
             <tr>
                 <td>16:40-17:30</td>
-                <td>前往<a href="https://www.google.com/maps/search/?api=1&query=Haneda+Airport" target="_blank">羽田机场(HND)</a></td>
-                <td>JR京滨东北线 (<a href="https://www.google.com/maps/search/?api=1&query=Tokyo+Station" target="_blank">东京站</a> → <a href="https://www.google.com/maps/search/?api=1&query=Hamamatsucho+Station" target="_blank">滨松町站</a>) + 东京单轨电车</td>
+                <td>前往<a href="https://www.google.com/maps/place/Haneda+Airport+Terminal+3/@35.5448,139.7676,17z" target="_blank">羽田机场T3航站楼</a></td>
+                <td>JR京滨东北线 (<a href="https://www.google.com/maps/place/Tokyo+Station/@35.6812,139.7671,17z" target="_blank">东京站</a> → <a href="https://www.google.com/maps/place/Hamamatsuchō+Station/@35.6556,139.757,17z" target="_blank">滨松町站</a>) + 东京单轨电车</td>
                 <td>约50分钟</td>
             </tr>
             <tr>
                 <td>17:30-22:05</td>
-                <td>抵达羽田机场，办理值机、安检、购物、搭乘航班 MU540 (东京羽田 → <a href="https://www.google.com/maps/search/?api=1&query=Shanghai+Pudong+International+Airport" target="_blank">上海浦东</a>)</td>
+                <td>抵达羽田机场，办理值机、安检、购物、搭乘航班 MU540 (东京羽田 → <a href="https://www.google.com/maps/place/Shanghai+Pudong+International+Airport+(PVG)/@31.143364,121.805215,17z" target="_blank">上海浦东</a>)</td>
                 <td>东方航空</td>
                 <td>-</td>
             </tr>
