@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>日本大阪-东京最终行程规划 (超详细版)</title>
+    <title>日本大阪-东京最终行程规划 (地图链接版)</title>
     <style>
+        /* CSS样式区 */
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
             line-height: 1.6;
@@ -40,36 +41,26 @@
         tbody tr:hover {
             background-color: #eaf3f9;
         }
-        .export-button {
-            display: inline-block;
-            margin-top: 25px;
-            margin-bottom: 25px;
-            padding: 10px 20px;
-            font-size: 16px;
-            font-weight: bold;
-            color: #fff;
-            background-color: #2ecc71;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: background-color 0.3s;
-        }
-        .export-button:hover {
-            background-color: #27ae60;
-        }
         .notes {
             margin-top: 25px;
             padding: 15px;
             background-color: #fffbe6;
             border-left: 5px solid #f1c40f;
         }
+        /* 超链接样式 */
+        .location-link {
+            color: #007bff; /* 明确指定为蓝色 */
+            font-weight: bold;
+            text-decoration: none; /* 去掉下划线，更美观 */
+        }
+        .location-link:hover {
+            text-decoration: underline; /* 鼠标悬停时显示下划线 */
+        }
     </style>
 </head>
 <body>
 
-    <h1>日本大阪-东京最终行程规划 (超详细版)</h1>
-
-    <button class="export-button" onclick="exportTableToExcel('itineraryTable', '日本最终行程规划-详细版')">导出为Excel文件</button>
+    <h1>日本大阪-东京最终行程规划 (地图链接版)</h1>
 
     <table id="itineraryTable">
         <thead>
@@ -93,7 +84,7 @@
             </tr>
             <tr>
                 <td>12:00-12:30</td>
-                <td>抵达浦东机场，前往贵宾服务处</td>
+                <td>抵达<a href="https://www.google.com/maps/search/?api=1&query=Shanghai+Pudong+International+Airport" class="location-link" target="_blank">浦东机场</a>，前往贵宾服务处</td>
                 <td>浦东T1，三层出发大厅，11号门</td>
                 <td>-</td>
                 <td>在途</td>
@@ -114,28 +105,28 @@
             </tr>
             <tr>
                 <td>18:00-19:00</td>
-                <td>抵达大阪关西机场(KIX)，办理入境</td>
+                <td>抵达<a href="https://www.google.com/maps/search/?api=1&query=Kansai+International+Airport" class="location-link" target="_blank">大阪关西机场(KIX)</a>，办理入境</td>
                 <td>-</td>
                 <td>约1小时</td>
                 <td rowspan="3"><strong>难波万枫酒店</strong></td>
             </tr>
             <tr>
                 <td>19:00-19:45</td>
-                <td>前往难波</td>
-                <td><strong>南海电铁空港急行</strong> (关西机场站 → 难波站)</td>
+                <td>前往<a href="https://www.google.com/maps/search/?api=1&query=Namba+Station" class="location-link" target="_blank">难波</a></td>
+                <td><strong>南海电铁空港急行</strong> (<a href="https://www.google.com/maps/search/?api=1&query=Kansai+Airport+Station" class="location-link" target="_blank">关西机场站</a> → <a href="https://www.google.com/maps/search/?api=1&query=Namba+Station" class="location-link" target="_blank">难波站</a>)</td>
                 <td>约45分钟</td>
             </tr>
             <tr>
                 <td>19:45-</td>
-                <td>步行至酒店入住 & 晚餐/逛街</td>
+                <td>步行至<a href="https://www.google.com/maps/search/?api=1&query=Fairfield+by+Marriott+Osaka+Namba" class="location-link" target="_blank">酒店</a>入住 & 晚餐/逛街</td>
                 <td>从南海难波站步行</td>
                 <td>约10分钟+</td>
             </tr>
             <tr>
                 <td rowspan="4"><strong>第二天 (8月3日, 周六)</strong></td>
                 <td>07:50-08:45</td>
-                <td>早餐 & 从酒店出发前往世博会</td>
-                <td>步行至难波站，乘坐<strong>地铁御堂筋线</strong> (难波站 → 本町站) + <strong>中央线</strong> (本町站 → 宇宙广场站)</td>
+                <td>早餐 & 从酒店出发前往<a href="https://www.google.com/maps/search/?api=1&query=Expo+2025+Osaka+site+Yumeshima" class="location-link" target="_blank">世博会</a></td>
+                <td>步行至<a href="https://www.google.com/maps/search/?api=1&query=Namba+Station" class="location-link" target="_blank">难波站</a>，乘坐<strong>地铁御堂筋线</strong> (<a href="https://www.google.com/maps/search/?api=1&query=Namba+Station" class="location-link" target="_blank">难波站</a> → <a href="https://www.google.com/maps/search/?api=1&query=Hommachi+Station" class="location-link" target="_blank">本町站</a>) + <strong>中央线</strong> (<a href="https://www.google.com/maps/search/?api=1&query=Hommachi+Station" class="location-link" target="_blank">本町站</a> → <a href="https://www.google.com/maps/search/?api=1&query=Cosmosquare+Station" class="location-link" target="_blank">宇宙广场站</a>)</td>
                 <td>约55分钟</td>
                 <td rowspan="4"><strong>难波万枫酒店</strong></td>
             </tr>
@@ -154,7 +145,7 @@
             <tr>
                 <td>17:00-18:00</td>
                 <td>从世博会返回酒店</td>
-                <td><strong>地铁中央线</strong> (宇宙广场站 → 本町站) + <strong>御堂筋线</strong> (本町站 → 难波站)，步行回酒店</td>
+                <td><strong>地铁中央线</strong> (<a href="https://www.google.com/maps/search/?api=1&query=Cosmosquare+Station" class="location-link" target="_blank">宇宙广场站</a> → <a href="https://www.google.com/maps/search/?api=1&query=Hommachi+Station" class="location-link" target="_blank">本町站</a>) + <strong>御堂筋线</strong> (<a href="https://www.google.com/maps/search/?api=1&query=Hommachi+Station" class="location-link" target="_blank">本町站</a> → <a href="https://www.google.com/maps/search/?api=1&query=Namba+Station" class="location-link" target="_blank">难波站</a>)，步行回酒店</td>
                 <td>约60分钟</td>
             </tr>
             <tr>
@@ -167,8 +158,8 @@
             </tr>
             <tr>
                 <td>07:45-08:45</td>
-                <td>从酒店出发前往世博会</td>
-                <td>步行至难波站，乘坐<strong>地铁御堂筋线</strong> (难波站 → 本町站) + <strong>中央线</strong> (本町站 → 宇宙广场站)</td>
+                <td>从酒店出发前往<a href="https://www.google.com/maps/search/?api=1&query=Expo+2025+Osaka+site+Yumeshima" class="location-link" target="_blank">世博会</a></td>
+                <td>与前一天路线相同</td>
                 <td>约60分钟</td>
             </tr>
             <tr>
@@ -185,8 +176,8 @@
             </tr>
             <tr>
                 <td>17:00-18:00</td>
-                <td>从世博会返回难波万枫酒店</td>
-                <td><strong>地铁中央线</strong> (宇宙广场站 → 本町站) + <strong>御堂筋线</strong> (本町站 → 难波站)，步行回酒店</td>
+                <td>从世博会返回<a href="https://www.google.com/maps/search/?api=1&query=Fairfield+by+Marriott+Osaka+Namba" class="location-link" target="_blank">难波万枫酒店</a></td>
+                <td>与前一天路线相同</td>
                 <td>约60分钟</td>
             </tr>
             <tr>
@@ -197,28 +188,28 @@
             </tr>
             <tr>
                 <td>18:15-19:00</td>
-                <td><strong>搬家：</strong> 前往新大阪的酒店并入住</td>
-                <td>步行至难波站，乘坐<strong>地铁御堂筋线</strong> (难波站 → 新大阪站)，步行至新酒店</td>
+                <td><strong>搬家：</strong> 前往<a href="https://www.google.com/maps/search/?api=1&query=karaksa+hotel+grande+Shin-Osaka+Tower" class="location-link" target="_blank">新大阪的酒店</a>并入住</td>
+                <td>步行至<a href="https://www.google.com/maps/search/?api=1&query=Namba+Station" class="location-link" target="_blank">难波站</a>，乘坐<strong>地铁御堂筋线</strong> (<a href="https://www.google.com/maps/search/?api=1&query=Namba+Station" class="location-link" target="_blank">难波站</a> → <a href="https://www.google.com/maps/search/?api=1&query=Shin-Osaka+Station" class="location-link" target="_blank">新大阪站</a>)，步行至新酒店</td>
                 <td>约45分钟</td>
             </tr>
             <tr>
                 <td rowspan="12"><strong>第四天 (8月5日, 周一)</strong></td>
                 <td>07:21-09:51</td>
-                <td><strong>新干线 Nozomi 296号</strong> (新大阪 → 东京)</td>
+                <td><strong>新干线 Nozomi 296号</strong> (<a href="https://www.google.com/maps/search/?api=1&query=Shin-Osaka+Station" class="location-link" target="_blank">新大阪</a> → <a href="https://www.google.com/maps/search/?api=1&query=Tokyo+Station" class="location-link" target="_blank">东京</a>)</td>
                 <td>JR东海道新干线</td>
                 <td>2小时30分</td>
                 <td rowspan="12">在途</td>
             </tr>
             <tr>
                 <td>09:51-10:20</td>
-                <td><strong>关键：</strong> 抵达东京站，寄存大件行李</td>
+                <td><strong>关键：</strong> 抵达<a href="https://www.google.com/maps/search/?api=1&query=Tokyo+Station" class="location-link" target="_blank">东京站</a>，寄存大件行李</td>
                 <td>站内投币式储物柜 (Coin Locker)</td>
                 <td>约30分钟</td>
             </tr>
             <tr>
                 <td>10:20-10:40</td>
-                <td>第一站：前往秋叶原</td>
-                <td><strong>JR山手线</strong> (东京站 → 秋叶原站)</td>
+                <td>第一站：前往<a href="https://www.google.com/maps/search/?api=1&query=Akihabara+Station" class="location-link" target="_blank">秋叶原</a></td>
+                <td><strong>JR山手线</strong> (<a href="https://www.google.com/maps/search/?api=1&query=Tokyo+Station" class="location-link" target="_blank">东京站</a> → <a href="https://www.google.com/maps/search/?api=1&query=Akihabara+Station" class="location-link" target="_blank">秋叶原站</a>)</td>
                 <td>约20分钟</td>
             </tr>
             <tr>
@@ -229,20 +220,20 @@
             </tr>
             <tr>
                 <td>12:00-12:20</td>
-                <td>第二站：前往上野</td>
-                <td><strong>JR山手线</strong> (秋叶原站 → 上野站)</td>
+                <td>第二站：前往<a href="https://www.google.com/maps/search/?api=1&query=Ueno+Station" class="location-link" target="_blank">上野</a></td>
+                <td><strong>JR山手线</strong> (<a href="https://www.google.com/maps/search/?api=1&query=Akihabara+Station" class="location-link" target="_blank">秋叶原站</a> → <a href="https://www.google.com/maps/search/?api=1&query=Ueno+Station" class="location-link" target="_blank">上野站</a>)</td>
                 <td>约20分钟</td>
             </tr>
             <tr>
                 <td>12:20-13:00</td>
-                <td>在"BigGym Ueno"购买漫画</td>
+                <td>在<a href="https://www.google.com/maps/search/?api=1&query=BIGGYM+Ueno" class="location-link" target="_blank">"BigGym Ueno"</a>购买漫画</td>
                 <td>步行</td>
                 <td>约40分钟</td>
             </tr>
             <tr>
                 <td>13:00-13:20</td>
-                <td>第三站：前往浅草寺</td>
-                <td><strong>地铁银座线</strong> (上野站 → 浅草站)</td>
+                <td>第三站：前往<a href="https://www.google.com/maps/search/?api=1&query=Asakusa+Station" class="location-link" target="_blank">浅草寺</a></td>
+                <td><strong>地铁银座线</strong> (<a href="https://www.google.com/maps/search/?api=1&query=Ueno+Station" class="location-link" target="_blank">上野站</a> → <a href="https://www.google.com/maps/search/?api=1&query=Asakusa+Station" class="location-link" target="_blank">浅草站</a>)</td>
                 <td>约20分钟</td>
             </tr>
             <tr>
@@ -253,8 +244,8 @@
             </tr>
             <tr>
                 <td>14:40-15:10</td>
-                <td>第四站：前往东京塔</td>
-                <td><strong>地铁浅草线</strong> (浅草站 → 大门站)</td>
+                <td>第四站：前往<a href="https://www.google.com/maps/search/?api=1&query=Tokyo+Tower" class="location-link" target="_blank">东京塔</a></td>
+                <td><strong>地铁浅草线</strong> (<a href="https://www.google.com/maps/search/?api=1&query=Asakusa+Station" class="location-link" target="_blank">浅草站</a> → <a href="https://www.google.com/maps/search/?api=1&query=Daimon+Station" class="location-link" target="_blank">大门站</a>)</td>
                 <td>约30分钟</td>
             </tr>
             <tr>
@@ -263,18 +254,17 @@
                 <td>步行</td>
                 <td>约1小时</td>
             </tr>
-
             <tr>
-                <td>16:10-17:30</td>
-                <td>**关键：** 返回东京站取行李并前往机场</td>
-                <td><strong>JR山手线</strong> (滨松町站 → 东京站)；取行李后，再从东京站乘 **JR京滨东北线** (→滨松町站) + **东京单轨电车**</td>
-                <td>约1小时20分</td>
+                <td>16:10-16:40</td>
+                <td><strong>关键：</strong> 返回<a href="https://www.google.com/maps/search/?api=1&query=Tokyo+Station" class="location-link" target="_blank">东京站</a>取回行李</td>
+                <td><strong>JR山手线</strong> (<a href="https://www.google.com/maps/search/?api=1&query=Hamamatsucho+Station" class="location-link" target="_blank">滨松町站</a> → <a href="https://www.google.com/maps/search/?api=1&query=Tokyo+Station" class="location-link" target="_blank">东京站</a>)</td>
+                <td>约30分钟</td>
             </tr>
             <tr>
-                <td>17:30-22:05</td>
-                <td>抵达羽田机场(HND)办理值机，候机及返程</td>
-                <td><strong>航班 MU540</strong></td>
-                <td>-</td>
+                <td>16:40-17:30</td>
+                <td>前往<a href="https://www.google.com/maps/search/?api=1&query=Haneda+Airport" class="location-link" target="_blank">羽田机场(HND)</a></td>
+                <td><strong>JR京滨东北线</strong> (<a href="https://www.google.com/maps/search/?api=1&query=Tokyo+Station" class="location-link" target="_blank">东京站</a> → <a href="https://www.google.com/maps/search/?api=1&query=Hamamatsucho+Station" class="location-link" target="_blank">滨松町站</a>) + <strong>东京单轨电车</strong></td>
+                <td>约50分钟</td>
             </tr>
         </tbody>
     </table>
@@ -288,32 +278,6 @@
             <li><strong>灵活调整：</strong> 第四天的东京行程虽然经过优化，但依然非常紧凑。您可以根据当天的实际情况和体力，灵活决定是否要缩短某个景点的游览时间，以确保行程顺利。</li>
         </ul>
     </div>
-
-    <script>
-        function exportTableToExcel(tableID, filename = 'export') {
-            const tableSelect = document.getElementById(tableID);
-            const dataType = 'application/vnd.ms-excel';
-            // 添加UTF-8 BOM，确保Excel能正确识别中文字符
-            const bom = "\uFEFF"; 
-            const tableHTML = bom + tableSelect.outerHTML.replace(/ /g, '%20');
-
-            const downloadLink = document.createElement("a");
-            
-            document.body.appendChild(downloadLink);
-            
-            if (navigator.msSaveOrOpenBlob) {
-                const blob = new Blob(['\ufeff', tableSelect.outerHTML], {
-                    type: dataType
-                });
-                navigator.msSaveOrOpenBlob(blob, filename + '.xls');
-            } else {
-                downloadLink.href = 'data:' + dataType + ', ' + tableHTML;
-                downloadLink.download = filename + '.xls';
-                downloadLink.click();
-            }
-            document.body.removeChild(downloadLink);
-        }
-    </script>
 
 </body>
 </html>
